@@ -1,0 +1,25 @@
+************    NOTES    **********
+Code are not well structeured following the rules of spring standards 
+   * THe project is for learning purpose to implement in the original project 
+
+
+In this project You can configure as your requirement 
+1. JWT security with Role based system integrated
+2. Roles with many to many users  [flexible for further requirements]                                
+3. User Log activity based on the controllers and APis 
+  ********** Captured Things ************
+        Users logged in acivity 
+        Users performed activities through the api 
+        Performed api result success or failure due to exception is captured 
+        Method name  Status  Ip address the things that is required is captured 
+
+ 4.Concurrency Management 
+         * Pessimist Locking for concurrency Test : working well 
+                                    multiple users book the ticket at once 
+         * Optimistic Locking for Concurrency Test : Best for update but not for concurrent operation as of now 
+
+        * Atomic Sql Updates : fast and impressive way to concurrent in small to medium large applicaitons 
+
+
+  5. NOTES 
+                      
